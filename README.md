@@ -7,10 +7,16 @@ Runs valheim on vultr
 put vultr api key here
 
 ```
-vultr_api_key="secret"
-plan = "vc2-2c-4gb"
-region = "lax"
-os_id = "362"
+# vultr
+vultr_api_key = "secret"
+ssh_key_ids = [
+  "e1923b30-0801-4374-ac07-278f6cbf284a"
+]
+
+# server
+world = "default"
+name = "Valheim on Vultr"
+password = "secret"
 ```
 
 see:
